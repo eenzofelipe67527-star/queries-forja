@@ -1,0 +1,3 @@
+ALTER TABLE frutarias DROP nome
+
+ALTER TABLE frutarias ADD nome TEXT NOT NULL DEFAULT valor;-- Active: 1772562546508@@127.0.0.1@3306
