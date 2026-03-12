@@ -1,0 +1,2 @@
+-- Active: 1772562546508@@127.0.0.1@3306
+SELECT donos.nome FROM donos INNER JOIN frutarias_donos ON donos.id = frutarias_donos.dono_id INNER JOIN frutarias ON frutarias.id = frutarias_donos.frutaria_id WHERE frutarias.nome = 'Nova Frutaria';
